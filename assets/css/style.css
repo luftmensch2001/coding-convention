@@ -23,7 +23,7 @@ html {
     margin-top: 16px !important;
 }
 
-.row 
+ .row 
 {
     margin-left: -8px;
     margin-right: -8px;
@@ -32,14 +32,14 @@ html {
 .row::after 
 {
     content: "";
-    display: block;
+     display: block;
     clear: both;
 }
 
 .col {
     float: left;
     padding-left: 8px;
-    padding-right: 8px;
+       padding-right: 8px;
 }
 
 .col-half        {
@@ -54,7 +54,7 @@ html {
 #header {
     height:     46px;
     background-color: #000;
-    position: fixed;
+       position: fixed;
     top:       0;
     left:     0;
     right: 0;
@@ -68,7 +68,7 @@ html {
     line-height: 46px;
 }
 
-#header .mobile-menu-btn, #header .search-btn {
+#header .mobile-menu-btn,   #header .search-btn {
     float: right;
     padding: 0 21px;
 }
@@ -80,12 +80,12 @@ html {
     display: none;
 }
 
-#header .search-btn:hover {
+#header  .search-btn:hover {
     background-color: #f44336;
     cursor: pointer;
 }
 
-#header .mobile-menu-btn:hover {
+#header  .mobile-menu-btn:hover {
     background-color: #ccc;
 }
 
@@ -138,7 +138,7 @@ html {
     text-transform: uppercase;
 }
 
-#nav li a {
+#nav li  a {
     text-decoration: none;
     line-height: 46px;
     padding: 0 24px;
@@ -179,7 +179,8 @@ html {
     text-shadow: 0 0 1px #000;
 }
 
-#content .content-section {
+#content .content-section 
+{
     width: 800px;
     max-width: 100%;
     padding: 64px 16px;

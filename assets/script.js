@@ -5,15 +5,15 @@ const BuyBtns = document.querySelectorAll('.js-buy-ticket')
            const closebtn = document.querySelector(".js-modal-close");
 
         function showModal() {
-            modal.classList.add('open');
+           modal.classList.add('open');
         }
 
         function hideModal() {
             modal.classList.remove('open');
         }
 
-        for (buyBtn of buyBtns) {
-            BuyBtn.addEventListener('click', showModal)
+        for (buyBtn of BuyBtns) {
+            buyBtn.addEventListener('click', showModal)
         }
 
         closebtn.addEventListener('click', hideModal);
